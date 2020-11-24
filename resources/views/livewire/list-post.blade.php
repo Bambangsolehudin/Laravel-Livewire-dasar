@@ -16,7 +16,7 @@
         @if($updateStateId !== $post->id)
         <span class="">{{$post->body}}</span>
         @endif
-
+<!-- yare yare -->
         @if($updateStateId == $post->id)
             <textarea    
             wire:model="body"
